@@ -83,7 +83,7 @@ public class Method {
         String name = inputName();
         for (PhoneBook phoneBook : phoneBookList) {
             if (name.equals(phoneBook.getTen())) {
-                phoneBook.toString();
+                System.out.println(phoneBook.toString());
             }
         }
     }
